@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>用户注册</title>
+</head>
+<body>
+  <h1>用户注册</h1>
+  <hr />
+  <!-- 设置form表单提交方式及提交地址 -->
+  <form action="注册成功.html" method="get">
+    <p>
+      <label for="uName">用户名:</label>
+      <!--标签的 placeholder属性用来设置文本框的占位符 -->
+      <input type="text" name="userName" id="uName" placeholder="请输入8~12个字符的用户名" />
+    </p>
+    <p>
+      <label for="uMail">邮&nbsp;箱:</label>
+      <input type="email" name="userMail" id="uMail" placeholder="请输入您的电子邮箱地址"/>
+    </p>
+    <p>
+      <label for="uPwd">密&nbsp;码:</label>
+      <input type="password" name="pwd" id="uPwd" placeholder="请输入8~12个字符的密码"/>
+    </p>
+    <p>
+      <label>性&nbsp;别:
+      男<input type="radio" name="gender" checked="checked"/>
+      女<input type="radio" name="gender"/>
+      </label>
+    </p>
+    <p>
+      <label for="birthday">出生日期:</label>
+      <input type="date" name="birthday" id="birthday" />
+    </p>
+    <p>
+      <label>爱&nbsp;好:</label>
+      <input type="checkbox" name="fav" />吃喝玩
+      <input type="checkbox" name="fav" />睡觉
+      <input type="checkbox" name="fav" checked="checked" />其他
+    </p>
+    <p>
+      <label>上传头像:</label>
+      <input type="file" name="pic"/>
+    </p>
+    <p>
+      <label>籍&nbsp;贯:</label>
+      <select name="prov">
+        <option>请选择</option>
+        <option>河南</option>
+        <option>河北</option>
+        <option>山西</option>
+        <option>山东</option>
+        <option>北京</option>
+      </select>
+      <select name="area">
+        <option>请选择</option>
+        <option>郑州</option>
+        <option>石家庄</option>
+        <option>太原</option>
+        <option>济南</option>
+        <option>北京</option>
+      </select>
+      <input type="text" placeholder="请输入你的街道地址" />
+    </p>
+    <p>
+      <input type="submit" value="注册" />
+      <input type="reset" value="重置" />
+      <input type="button" value="保存" />
+    </p>
+  </form>
+</body>
+</html>
