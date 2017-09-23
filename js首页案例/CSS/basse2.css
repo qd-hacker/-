@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+input,ul,li,p,h1,dl,dt,dd,button {
+	margin: 0;
+	padding: 0;
+}
+input,button {
+	outline: none;
+}
+ul,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+}
+body {
+	background-color: #F6F6F6;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+.head-box {
+	height: 80px;
+	background-color: #020000;
+}
+.head {
+	height: 80px; 
+	background: url(../images/header.jpg) 0 0 no-repeat;
+}
+.top-nav {
+    height: 30px;
+    line-height: 30px;
+    background-color: #E3E4E5;
+    border-bottom: 1px solid #666;
+}
+
+.city {
+	margin-left: 200px;
+
+}
+
+.header li{
+ float: left;
+ padding: 0 8px;
+ 
+}
+.header .space {
+ height: 10px;
+ width: 1px;
+ background-color: #999;
+ padding: 0;
+ margin: 10px 0;
+}
+.header .zhuce {
+	color: red;
+}
+.header a:hover {
+	color: orange;
+}
+.phone {
+	position: relative;
+}
+.two {
+   position: absolute;
+   top: 27px;
+   right: 27px;
+}
+.one {
+   position: absolute;
+   top: 30px;
+   right: 5px;
+   border: 1px solid #ccc;
+}  
+.main {
+  height: 140px;
+  position: relative;
+}
+.logo {
+	width: 190px;
+	height: 170px;
+	background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+.search {
+   width: 550px;
+   height: 36px;
+   background-color: pink;
+   border: 1px solid red;
+   position: absolute;
+   top: 25px;
+	left: 320px;
+}
+.search input {
+	width: 495px;
+	height: 36px;
+	border: none;
+	padding-left: 5px;
+	float: left;
+}
+.search button {
+	width: 50px;
+	height: 36px;
+	background-color: red;
+	border: none;
+	float: left;
+}
+.shop {
+	width: 190px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: red;	
+	font-size: 12px;
+	position: absolute;
+	top: 25px;
+    right: 95px;
+    border: 1px solid red;
+}
+.shop span {
+	position: absolute;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    top: 5px;
+    right: 30px;
+}
+.mainnav {
+	padding:0 3px;
+	position: relative;
+	top: 60px;
+    left: 320px;
+}
+.minbar {
+	position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+.nav {
+	width: 770px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+   
+}
+.nav li {
+	float: left;
+}
+.nav a {
+	 font-size: 16px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.nav .space {
+ height: 10px;
+ width: 1px;
+ background-color: #999;
+ padding: 0;
+ margin: 12px 10px 0;
+}
+.foot {
+	height: 500px;
+	background-color: #EAEAEA;
+}
+.footer {
+	height: 104px;
+	
+}
+.footer li {
+	float: left;
+	height: 104px;
+	width: 297px;
+	line-height: 104px;
+	position: relative;
+}
+.footer h5 {
+     
+      background: url(../images/ico.png) 0 0 no-repeat;
+      position: absolute;
+      width: 37px;
+      height: 43px;
+      top: 30px;
+      left: 38px;
+      text-indent: -999em;
+}
+.footer p {
+	font-weight: 700;
+    margin-left: 82px;
+}
+.list-box {
+
+	  border-top: 1px solid #dedede;
+	  height: 174px;
+	  padding-top: 25px;
+}
+.list {
+	float: left;
+}
+
+.list dl {
+	float: left;
+	width: 193px;
+	font-size: 14px;
+
+}
+.list dt {
+	height: 30px;
+}
+.list dd {
+	height: 22px;
+}
+.over {
+	 width: 200px;
+    height: 150px;
+    background: url(../images/ico_footer.png) 0 0 no-repeat;
+	float: right;
+}
+.over h5 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding-left: 35px;
+}
+.over p {
+	font-size: 12px;
+	line-height: 18px;
+	width: 180px;
+}
+.over a {
+	display: block;
+    width: 180px;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.footnav {
+	text-align: center;
+	padding-top: 20px;
+	border-top: 1px solid #E1E1E1;
+}
+.footnav span {
+    margin: 0 10px;
+}
+.footnav p {
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+}
+.footnav .firstline {
+margin-top: 15px;
+}
+.img {
+ padding-top: 20px;
+
+}
+.img a {
+	display: inline-block;
+	height: 34px;
+	width: 104px;
+	background: url(../images/ico_footer.png) -2px -152px no-repeat;
+	margin: 0 10px;
+}

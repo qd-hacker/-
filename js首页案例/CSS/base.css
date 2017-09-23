@@ -1,0 +1,292 @@
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+img {
+	/*display: block;*/
+	vertical-align: middle;
+}
+ul,li {
+	list-style: none;
+}
+input,button {
+	border: 0;
+	outline: none;
+}
+ul,h1,p,input,button,dd,dt,dl,h5 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f6f6f6;
+}
+a {
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+}
+a:hover {
+	color: red;
+}
+.f10 {
+	color: red !important;
+}
+@font-face {
+	../;
+}
+header {
+	height: 80px;
+	border-bottom-color: #020000;
+    background-color: #020000;
+
+}
+/*快速导航栏*/
+.shortcut {
+	background-color: #e3e4e5;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.city {
+	margin-left: 200px;
+
+}
+.shortcut li {
+    float: left;
+}
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal;
+}
+.space {
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 10px 12px 0;
+}
+.mobile {
+	position: relative;
+}
+.mobile .icon11{
+position: absolute;
+left: 27px;
+top: 27px;
+}
+.mobile .er {
+  position: absolute;
+  left: 0;
+  padding: 2px;
+  top: 30px;
+  border: 1px solid #ccc;
+
+}
+.middle {
+	height: 140px;
+	position: relative;
+}
+.logo { 
+	position: absolute;
+    top: -30px;
+	left: 0;
+	background-color: #fff;
+	box-shadow: 0px -10px 8px rgba(0, 0, 0, 0.3)
+}
+.logo a {
+	background-color: #fff;
+	display: block;
+	width: 190px;
+	height: 170px;
+	background:url(../images/logo.png) 0 0 no-repeat;
+} 
+
+.form {
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 320px;
+}
+ .form input {
+ width: 495px;
+ height: 33px;
+ border: 1px solid red;
+ float: left;
+ font-size: 14px;
+ padding-left: 3px;
+}
+.form button {
+	width: 50px;
+	height: 35px;
+	float: left;
+	background-color: red;
+}
+.shopcar {
+	width: 188px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 25px;
+	right: 95px;
+	background-color: #fff;
+	text-align: center;
+	color: red;
+	font-size: 12px;
+}
+
+.shopcar span {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 50%;
+	top: 5px;
+	right: 30px;
+	background-color: red;
+	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 60px;
+    left: 320px;
+}
+.hotwords a:hover {
+	color: orange;
+}
+.navtems {
+	width: 770px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	left: 200px;
+	bottom: 0;
+}
+.navtems li {
+	float: left;
+	margin-left: 30px;
+}
+.navtems li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #555;
+}
+.navtems .space {
+	margin-top: 15px;
+	margin-left: 15px;
+    margin-right: -15px;
+}
+.super {
+	position: absolute;
+	bottom: 10px;
+    right: 0;
+}
+footer {
+	height: 500px;
+	background-color: #EAEAEA;
+	margin-top: 35px;
+}
+.service {
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden;
+}
+.service ul li {
+	width: 297px;
+	height: 43px;	
+	line-height: 43px;
+	position: relative;
+	float: left;
+}
+.service li p {
+	font-weight: 700;
+	margin-left: 82px;
+}
+.service li h5 {
+	position: absolute;
+	width: 37px;
+	height: 43px;
+	top: 0;
+	left: 38px;
+	background: url(../images/ico.png) 0 0 no-repeat;
+	text-indent: -999em;
+}
+.service li:nth-child(2) h5 {
+	background-position: 0 -43px;
+}
+.service li:nth-child(3) h5 {
+	background-position: 0 -86px;
+}
+.service li:nth-child(4) h5 {
+	background-position: 0 bottom;
+}
+.help {
+	height: 174px;
+	border-bottom: 1px solid #dedede;
+    padding-top: 25px;
+}
+.help dl {
+	width: 193px;
+	float: left;
+}
+.help dt {
+	height: 30px;	
+}
+.help dd {
+	height: 22px;
+	width: 193px;
+}
+.cover {
+	width: 200px;
+	height: 150px;
+	background:url(../images/ico_footer.png) 0 0 no-repeat;
+}
+.cover h5 {
+	height: 30px;
+	padding-left: 35px;
+}
+.cover p {
+	width: 180px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #666;
+}
+.cover a {
+	display: block;
+	width: 180px;
+	text-align: right;
+	margin-top: 5px;
+}
+.coperight {
+	text-align: center;
+	color: #666;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.coperight span {
+	margin: 0 10px;
+}
+.coperight a {
+	color: #666;
+	font-size: 12px;
+}
+.coperight div {
+	margin-top: 20px;
+}
+.coperight div p {
+	line-height: 20px;
+}
+.foot-icon a {
+	display:inline-block;
+	width: 103px;
+	height: 33px;
+	text-align: center;
+	background-color: pink;
+	margin: 20px 4px 0;
+	background: url(../images/ico_footer.png) 0 -151px no-repeat;
+}
