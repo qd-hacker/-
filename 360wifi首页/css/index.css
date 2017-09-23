@@ -1,0 +1,404 @@
+body {
+	background-color: #f5f5f5;
+}
+/*网页头部*/
+.top {
+	width: 1358px;
+	height: 56px;
+	background-color: #fff;
+}
+/*logo部分*/
+.logo {
+	width: 170px;
+	height: 50px;
+	background:url(../images/logo.png) center no-repeat;
+	background-size: 170px;
+	padding-left: 242px;
+}
+/*头部导航*/
+.topnav {
+	height: 56px;
+	line-height: 56px;
+
+}
+.topnav a {
+	display: inline-block;
+	line-height: 56px;
+	padding: 0 18px;
+}
+/*新浪图标*/
+.icon {
+	width: 125px;
+	height: 21px;
+	margin-right: 230px;
+	margin-top: 15px;
+	background:url(../images/1.png) 0 -1px no-repeat;
+	
+}
+.icon:hover {
+	width: 125px;
+	height: 21px;
+	margin-right: 230px;
+	margin-top: 15px;
+	background:url(../images/1.png) 0 -28px no-repeat;
+}
+/*banner大图*/
+.banner {
+	width: 1360px;
+	height: 464px;
+	background:url(../images/lunbotu.jpg)  no-repeat;
+	background-size: 1360px;
+	margin-bottom: 10px;
+}
+/*主体部分*/
+.main {
+	width: 881px;
+	height: 116px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+.main h5 {
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.main p {
+	font-size: 12px;
+}
+.mainone,.maintew,.mainthir,.mainlast {
+	height: 116px;
+	width: 216px;
+	margin-right:5px;
+}
+.mainone {	
+	background-color: #7761F3;	
+}
+.mainone img,.maintew img {
+	margin-top: 10px;
+	height: 54px;
+	width: 54px;
+}
+.maintew {
+	background-color: #17C37B;
+}
+.mainthir {
+	background-color: #FFB024;
+}
+.mainthir img {
+	margin-top: 10px;
+	height: 62px;
+}
+.main .mainlast {
+	width: 196px;
+	padding: 0 10px;
+	margin: 0;
+	background-color: #FD4E4E;
+}
+/*手机上网*/
+.shangwangbox  {
+	width: 881px;
+	height: 267px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15px;
+	background-color: #fff;
+}
+.shangf {
+	width: 170px;
+	height: 247px;
+	background-color: skyblue;
+	padding-top: 20px;
+	position: relative;
+	color: #fff;
+}
+.shangf h4 {
+	font-size: 16px;
+	font-weight: 400;
+}
+.shangf p { 
+	font-size: 8px;
+    line-height: 30px;
+}
+.shangf img {
+	position: absolute;
+	top: 86px;
+	right: 51px;
+}
+/*免费上网右*/
+.shangone,.shangtwo,.shanglast {
+	width: 236px;
+	height: 80px;
+	position: relative;
+}
+.shangone h4,.shangtwo h4,.shanglast h4 {
+	color: #4AB9F9;
+	padding-top: 167px;
+    font-weight: 400;
+	font-size: 20px;
+}
+.shangone h5,.shangtwo h5,.shanglast h5 {
+	line-height: 40px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.shangone p,.shangtwo p,.shanglast p {
+  line-height: 20px;
+   font-size: 8px;
+}
+.shangone img {
+	position: absolute;
+	top: 16px;
+	right: 26px;
+}
+.shangtwo img {
+	position: absolute;
+	top: 16px;
+	right: 45px;
+}
+.shanglast img {
+	position: absolute;
+	top: 28px;
+	right: 64px;
+}
+/*版本查看更多*/
+.bottom {
+	width: 881px;	
+	height: 57px;
+	margin: 0 auto;
+	background-color: #E6F2FB;
+	border-bottom: 1px solid #CDE1F0;
+}
+.bottom input {
+	width: 80px;
+	height: 20px;
+	font-size: 10px;
+	color: #fff;
+	background-color: #4EABF7;
+	border: 1px solid #4EABF7;
+	text-align: center;
+	margin: 15px 10px;
+	border-radius: 5px;
+}
+.bottom input:hover {
+	color: #4EABF7;
+	background-color: #fff;
+}
+.bottom .chakan {
+    color: #4EABF7;
+	background-color: #fff;
+}
+.bottom .chakan:hover {
+	color: #fff;
+	background-color: #4EABF7;
+}
+/*玩转视频*/
+.shipin {
+	width: 881px;
+	height: 114px;
+	line-height: 140px;
+	margin: 0 auto;
+	text-align: center;
+}
+.shipin h3 {
+		font-weight: 400;
+}
+.shipin h5 {
+	font-weight: 400;
+
+}
+
+/*产品*/
+.chanpin {
+	height: 132px;
+    width: 881px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 12px;
+}
+.chanpinf {
+	width: 160px;
+	height: 132px;
+	position: relative;
+	background-color: #fff;
+	margin-right: 20px;
+	text-align: center;
+	float: left;
+} 
+.chanpinf img {
+	width: 160px;
+	height: 100px;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.chanpinf p {
+   text-align: center;
+   line-height: 240px;
+}
+.sushe {
+	margin-right: 0;
+}
+/*底部导航*/
+.box {
+	height: 58px;
+	border-bottom: 2px solid #ECECEC;
+}
+
+.footbox {
+	height: 37px;
+	background-color: #fff;
+	border-bottom: 1px solid #F3F3F3;  
+}
+.footer {
+	width: 881px;
+	margin: 0 auto;
+	height: 37px;
+	line-height: 37px; 
+}
+.footer li {
+	font-size: 14px;
+	text-align: center;
+	margin: 10px 0;
+	width: 175px;
+	line-height: 17px;
+	float: left;
+	border-right: 1px solid #EAEAEA;
+}
+.footer a {
+	background: url(../images/2.png)  no-repeat;
+	padding-left: 30px;
+}
+.footer ul li:nth-child(2) a{
+	background-position: 0 -50px;
+}
+.footer ul li:nth-child(3) a{
+	background-position: 0 -101px;
+}
+.footer ul li:nth-child(4) a{
+	background-position: 0 -149px;
+}
+.footer ul li:nth-child(5) {
+	border-style: none;
+}
+.footer ul li:nth-child(5) a{
+	background-position: 0 -199px;
+}
+.footer ul li:nth-child(1) a:hover{
+	background-position: 0 -25px;
+}
+.footer ul li:nth-child(2) a:hover{
+	background-position: 0 -75px;
+}
+.footer ul li:nth-child(3) a:hover{
+	background-position: 0 -126px;
+}
+.footer ul li:nth-child(4) a:hover{
+	background-position: 0 -174px;
+}
+.footer ul li:nth-child(5) a:hover{
+	background-position: 0 -224px;
+}
+
+/*随时随地上网*/
+.fbox {
+	height: 160px;
+	background-color: #fff;
+}
+.fot {
+	width: 881px;
+	height: 160px;
+	margin: 0 auto;
+}
+.fot-l {
+	width: 247px;
+	height: 160px;
+}
+.wenzi {
+	height: 38px;
+	padding-top: 37px;
+}
+.wenzi h3 {
+	font-size: 14px;
+	color: #299FFF;
+}
+.wenzi p {
+	font-size: 14px;
+	font-weight: 700;
+}
+.fot-l input {
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	padding-left: 6px;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	background-color: #299FFF;
+}
+.fot-l input:hover {
+    color: #299FFF;
+	background-color: #ccc;
+}
+.anzhuo {
+	margin-right: 30px;
+}
+.fotc {
+	width: 222px;
+	height: 120px;
+	padding-left: 84px;
+	padding-right: 84px;	
+}
+.fotc img {
+	width: 60px;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 16px;
+}
+.partnal {
+	padding-top: 40px;
+	font-size: 10px;
+	height: 44px;
+}
+.fotr {
+	height: 95px;
+}
+.fotr img {
+	height: 54px;
+}
+.liaojie {
+	font-size: 10px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+/*友情链接*/
+.fdbox {
+	height: 80px;
+	background-color: #4C4B49;
+	text-align: center;
+}
+.fd {
+	padding-top: 18px;
+	width: 486px;
+	margin: 0 auto;
+}
+.fd li {
+	font-size: 12px;
+	padding: 0 18px;
+	float: left;
+    border-right: 1px solid #46433F;
+}
+.fd ul li:last-child {
+	border-right: none;
+}
+.shengming {
+	padding-top: 10px;
+}
+.fd p {
+	vertical-align: middle;
+	font-size: 12px;
+}
+
