@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>阳光河谷</title>
+	<style>
+	/*初始化*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	ul,li {
+		list-style: none;
+	}
+	input {
+		outline: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.container {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.clearfix:after {
+        content: ".";
+        height: 0;
+        display: block;
+        visibility: hidden;
+        clear: both;
+	}
+	.clearfix {
+		*zoom:1;
+	}
+	/*页面头部*/
+	.top-box {
+		height: 40px;
+		background-color: #000;
+	}
+    .top {
+    	width: 1000px;
+    	height: 40px;
+    	margin: 0 auto;	
+    }
+    p,.denlu a {
+    	font-size: 14px;
+    	line-height: 40px;
+    	color: white;
+    }
+    p {
+    	float: left;
+    }
+    .denlu{
+    	float: right;
+    }
+     .denlu a{
+    	display: inline-block;
+        line-height: 40px;
+        padding: 0 10px;   
+    }
+    a:hover {
+    	text-decoration: underline;
+    }
+    /*头部导航 */
+    .logo {
+    	float: left;
+    	padding: 8px 0;
+    }
+     .mainnav{
+       height: 100px;
+       float: right;
+    }
+
+    .mainnav li {
+    	height: 100px;
+    	float: left;
+    	padding-left: 36px;
+    }
+    .mainnav li a {
+    	margin: 30px 0;
+    	display: inline-block;
+    	font-size: 16px;
+    	line-height: 40px;
+    	text-decoration: none;
+    	color: #818181;
+    }
+    .mainnav li a:hover {
+    	color: #9dcb2a;
+    	text-decoration: none;
+    	border-bottom: 3px solid #9dcb2a;
+    }
+    /*banner主体*/
+    .banner {
+    	height: 600px;
+    	background:url(images/banner.jpg) center center no-repeat;
+    }
+    /*公司提供*/
+    .body {
+    	height: 290px;
+    	background-color: #f2f2f2;
+    }
+    .server ul li {
+    	margin-top: 23px;
+       height: 234px;
+       width: 208px;
+       float: left;
+       border-right: 1px solid #ddd;
+       padding:6px 20px 0;
+    }
+    .server img {
+     margin-left: 54px;
+    }
+    .server h4 {
+     height: 54px;
+     line-height: 54px;
+     color: #3b3b3b;
+     font-size: 20px;
+     font-weight: 400;
+     text-align: center;
+    }
+    .server p {
+    	color: #898989;
+    	font-size: 14px;
+    	text-indent: 2em;
+    	line-height: 20px;
+    }
+    /*品牌广告热线电话*/
+    .bar {
+    	height: 118px;
+    	background-color: #e1e1e1;
+    	text-align: center;
+    }
+    .bar h2 {
+    	height: 70px;
+    	font-size: 25px;
+    	color: #222;
+    	font-weight: 400; 
+    	line-height: 90px;
+    }
+    .bar p {
+    	text-align: center;
+    	color: #515150;
+    	font-size: 16px;
+    	height: 46px;
+    	float: none;
+    }
+    .dwbox {
+        height: 683px;
+        background-color: #69ae5b;
+    }
+    /*下载*/
+    .download {
+        width: 996px;
+        margin: 0 auto;
+        height: 683px;
+        position: relative;
+    }
+    .download a {
+        display: inline-block;
+        width: 340px;
+        height: 76px;
+        position: absolute;
+        top: 190px;
+        right: 110px;
+    }
+    /*公司新闻*/
+    .news {
+        display: block;
+        width: 285px;
+        height: 63px;
+        padding: 26px 0 13px 0;
+    }
+    .article {
+        width: 500px;
+        height: 180px;
+        float: left;
+    }
+    .pic {
+        width: 172px;
+        height: 180px;
+        float: left;
+        padding-left: 14px;
+    }
+    .content {
+        width: 306px;
+        height: 180px;
+        float: right;
+        padding-left: 8px;
+    }
+    .content h5,.content p{
+        float: left;
+    }
+    .content h5 {
+        color: #292929;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .content p {
+        color: #000;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    /*新闻列表*/
+    .newlist {
+        padding-bottom: 100px;
+    }
+    .newlist ul {
+        width: 500px;
+        float: left;
+    }
+    .newlist li {
+        width: 490px;
+        height: 36px;
+        background: url(images/square.jpg) left center no-repeat;
+        padding-left: 10px;
+    }
+    .newlist li a {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #292929;
+    float: left;
+    }
+    .newlist a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    .newlist li span {
+        font-size: 15px;
+        color: #292929;
+        float: right;
+        line-height: 36px;
+        padding-right: 46px; 
+
+    }
+    /*底部留言联系我们*/
+    .foot-bg{
+        padding-top: 46px;
+        height: 264px;
+        background-color: #333;
+    }
+    .foot {
+        height: 264px;
+        width: 1000px;
+    }
+    .liuyan {
+        float: left;
+        padding-left: 40px;
+    }
+    .liuyan-box {
+        height: 110px;
+        width: 627px;
+    }
+    .liuyan textarea {
+        width: 590px;
+        height: 110px;
+        background-color: #1d2026;
+        color: #5a5a5a;
+        resize: none;
+        outline: none;
+        float: left;
+        border: none;
+    }
+    .liuyan input {
+        height: 110px;
+        width: 35px;
+        float: left;
+        outline: none;
+        border: none;
+        background: url(images/btn_03.jpg) 0 0 no-repeat;
+    }
+    .liuyan h5 {
+        background: url(images/mail.jpg) 0 0 no-repeat;
+        font-size: 14px;
+        height: 27px;
+        padding-left: 32px;
+        color: #fff;
+    }
+    .xinxi {
+        float: left;
+        height: 137px;
+        width: 300px;
+        color: #fff;
+        padding-left: 30px;       
+    }
+    .xinxi p {
+        width: 340px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+    .xinxi .lianxi {
+        font-size: 14px;
+        width: 310px;
+        background:url(images/man_03.jpg) 0 0 no-repeat;
+        padding-left: 30px;
+    }
+    .bottom-nav {
+        text-align: center;
+    }
+    .bottom-nav a{
+        display: inline-block;
+        color: #cecece;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 24px 18px 20px;
+    }
+    .bottom-nav a:hover {
+        text-decoration:underline;
+    }
+    .foot .shengming {
+        text-align: center;
+        float: none;
+        color: #cecece;
+        font-size: 14px;
+    }
+    .icon {
+        position: fixed;
+        right: 30px;
+        bottom: 100px;
+    }
+    /*top定位*/
+	</style>
+</head>
+<body>
+<!-- 页面顶部 -->
+<div class="top-box">
+	<div class="top">
+		<p>您好，欢迎访问网站!</p>
+		<div class="denlu">
+			<a href="#">登录</a>
+			<a href="#">注册</a>
+			<a href="#">联系客服</a>
+			<a href="#">收藏本站</a>
+		</div>
+	</div>	
+</div>
+<!-- 头部导航 -->
+<div class="container clearfix">
+	<div class="logo">
+	<img src="images/logo.png" >
+</div>
+<ul class="mainnav">
+	<li><a href="#">公司首页</a></li>
+	<li><a href="#">产品下载</a></li>
+	<li><a href="#">合作流程</a></li>
+	<li><a href="#">加入我们</a></li>
+</ul>
+</div>
+<!-- banner主体 -->
+<div class="banner"></div>
+<!-- 公司提供 -->
+<div class="body">
+	<div class="server container">
+	<ul>
+		<li>
+			<img src="images/info_03.jpg" alt="">
+			<h4>您的需求由您决定</h4>
+			<p>用户无局限,弥补支付空白,支持三大运营商计费通道自由转换。</p>
+		</li>
+		<li>
+			<img src="images/info_04.jpg" alt="">
+			<h4>超高转化率</h4>
+			<p>我们还提供了“App自动发布机”，可以向排名前100的应用市场自动发布推广。</p>
+		</li>
+		<li>
+			<img src="images/info_05.jpg" alt="">
+			<h4>巨大的盈利空间</h4>
+			<p>用户无需开设账户,操作便捷，在行内支付转化率最高，超过60%以上。</p>
+		</li>
+		<li>
+			<img src="images/info_06.jpg" alt="">
+			<h4>全方位一站式服务</h4>
+			<p>为保障开发者的利益,我们还提供了周期结算垫付服务</p>
+		</li>
+	</ul>
+</div>
+</div>
+<div class="bar">
+	<h2>我们为企业提供互联网服务12年，专业团队为您抢占微营销先机!</h2>
+	<p>拨打24H咨询热线: 010-12345678</p>
+</div>
+<!-- 下载模板开始 -->
+    <div class="dwbox">
+        <div class="download">
+    <img src="images/download.jpg">
+    <a href="#"></a>
+    </div>
+    </div>
+  <!-- 公司新闻 -->
+  <img src="images/news.jpg" class="news container">
+  <div class="container clearfix">
+  <div class="article">
+        <div class="pic">
+            <img src="images/pic_01.jpg">
+        </div>
+        <div class="content">
+             <h5>2014公司发展良好</h5>
+             <p>公司的资金实力和发展规模不断壮大，目前，辖有全资 子公司两个，控股公司一个，参股公司两个，公司总资 产为58.98亿元，所有者权益为37.74亿元
+             </p>
+        </div>
+   </div>
+    <div class="article">
+        <div class="pic">
+            <img src="images/pic_01.jpg">
+        </div>
+        <div class="content">
+             <h5>2014公司发展良好</h5>
+             <p>公司的资金实力和发展规模不断壮大，目前，辖有全资 子公司两个，控股公司一个，参股公司两个，公司总资 产为58.98亿元，所有者权益为37.74亿元
+             </p>
+      </div>
+   </div>   
+  </div>
+  <!-- 新闻列表 -->
+  <div class="newlist container clearfix">
+      <ul>
+          <li><a href="#">企业精准营销，品牌定位口碑营销</a><span>2014-10-11</span></li>
+          <li><a href="#">企业精准营销，品牌定位口碑营销</a><span>2014-10-11</span></li>
+          <li><a href="#">企业精准营销，品牌定位口碑营销</a><span>2014-10-11</span></li>
+      </ul>
+      <ul>
+          <li><a href="#">企业精准营销，品牌定位口碑营销</a><span>2014-10-11</span></li>
+          <li><a href="#">企业精准营销，品牌定位口碑营销</a><span>2014-10-11</span></li>
+          <li><a href="#">企业精准营销，品牌定位口碑营销</a><span>2014-10-11</span></li>
+      </ul>
+  </div>
+    <div class="ceshi"></div>
+<!-- 页面底部 -->
+<div class="foot-bg">
+    <div class="foot container">
+    <!-- 在线留言 -->
+        <div class="liuyan">
+            <h5>在线留言</h5>
+            <div class="liuyan-box">
+            <textarea placeholder="请输入您的留言内容"></textarea>
+            <input type="button">
+            </div>
+        </div>
+        <!-- 联系我们 -->
+        <div class="xinxi">
+            <p class="lianxi">联系我们</p>
+            <p>Add：北京市某某某某某某某某</p>
+            <p>Tel : 010-123456789</p>
+            <p>网址: www.itcast.cn</p>
+            <p>EML:123456789@qq.com</p>
+        </div>
+        <!-- 友情链接 -->
+        <div class="bottom-nav">
+            <a href="#">友情链接</a>
+            <a href="#">友情链接</a>
+            <a href="#">友情链接</a>
+            <a href="#">友情链接</a>
+        </div>
+        <p class="shengming">Copyright©2013 Upay. All Rights Reserved 信息版权所有 京ICP备12026883号-5</p>
+    </div>
+</div>
+<!-- top定位 -->
+<img src="images/top_03.jpg" class="icon">
+</body>
+</html>
