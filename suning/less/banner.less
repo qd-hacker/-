@@ -1,0 +1,44 @@
+@charset "utf-8";
+.sn_banner {
+  position: relative;
+  margin-top: 90rem/@baseFontSize;
+  width: 100%;
+  overflow: hidden;
+  ul {
+    &:first-child {
+      transform: translateX(-100%/@bannernum);
+      width: 100%*@bannernum;
+      li {
+        float: left;
+        width: 100%/@bannernum;
+      }
+      a {
+        width: 100%;
+        display: block;
+        img{
+          width:100%;
+          display: block;
+
+        }
+      }
+    }
+    &:last-child {
+      width: 340rem/@baseFontSize;
+      height: 30rem/@baseFontSize;
+      position: absolute;
+      left: 440rem/@baseFontSize;
+      bottom: 10rem/@baseFontSize;
+      li {
+        width: 14rem/@baseFontSize;
+        height: 14rem/@baseFontSize;
+        border-radius: 50%;
+        float: left;
+        background-color: #fff;
+        margin-left: 10rem/@baseFontSize;
+        &.now {
+          background-color: gold;
+        }
+      }
+    }
+  }
+}
